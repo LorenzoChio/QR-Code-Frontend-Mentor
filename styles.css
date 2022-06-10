@@ -1,8 +1,13 @@
 body {
+    width: 375px;
+    height: 100vh;
     background-color: hsl(212, 45%, 89%);
     text-align: center;
     font-size: 17px;
     font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -42,4 +47,10 @@ img {
     margin-bottom: 20px;
     margin-left: 3px;
     margin-right: 3px;
+}
+
+@media (min-width: 376px) {
+    body {
+        width: 1440px;
+    }
 }
